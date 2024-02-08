@@ -20,8 +20,18 @@
 
             <main>
                 MAIN
-                {{message}}
+                <ul v-for="populations in population" key="i">
+                    <li>
+                       Nominativo:  {{populations.name}} {{populations.lastName}}
+                    </li>
+
+                    <li>
+                      Nato a:  {{populations.born}}
+                    </li>
+                </ul>
             </main>
+
+            
 
             <footer>
                 FOOTER
