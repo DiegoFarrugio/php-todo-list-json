@@ -19,14 +19,9 @@
             </header>
 
             <main>
-                MAIN
-                <ul v-for="populations in population" key="i">
+                <ul v-for="thingsToDos in thingsToDo" key="i">
                     <li>
-                       Nominativo:  {{populations.name}} {{populations.lastName}}
-                    </li>
-
-                    <li>
-                      Nato a:  {{populations.born}}
+                        {{thingsToDos.list}} ---> {{thingsToDos.done}}
                     </li>
                 </ul>
             </main>
@@ -34,7 +29,6 @@
             
 
             <footer>
-                FOOTER
             </footer>
         </div>
 

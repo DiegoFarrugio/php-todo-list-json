@@ -1,31 +1,26 @@
 [
     {
-        "name" : "Diego",
-        "lastName" : "Farrugio",
-        "born" : "Roma"
+        "list" : "Fare la spesa",
+        "done" : "false"
     },
 
     {
-        "name" : "Giuseppe",
-        "lastName" : "Rossi",
-        "born" : "Catania"
+        "list" : "Andare in palestra",
+        "done" : "true"
     },
 
     {
-        "name" : "Mario",
-        "lastName" : "Verdi",
-        "born" : "Lecce"
+        "list" : "Prendere i bambini da scuola",
+        "done" : "true"
     },
 
     {
-        "name" : "Carmelo",
-        "lastName" : "Madonna",
-        "born" : "Firenze"
+        "list" : "Andare in campagna",
+        "done" : "false"
     },
 
     {
-        "name" : "Pippo",
-        "lastName" : "Inzaghi",
-        "born" : "Torino"
+        "list" : "Compare cibo per cani",
+        "done" : "true"
     }
 ]
