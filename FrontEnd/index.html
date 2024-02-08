@@ -19,8 +19,10 @@
             </header>
 
             <main>
-                <ul v-for="thingsToDos in thingsToDo" key="i">
-                    <li>
+                <ul>
+                    <!--BONUS NON FUNZIONANTE
+                    :class="{'text-decoration-line-through': thingsToDos.done == true}">-->
+                    <li v-for="thingsToDos in thingsToDo" key="i">
                         {{thingsToDos.list}} ---> {{thingsToDos.done}}
                     </li>
                 </ul>
