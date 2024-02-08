@@ -1,0 +1,31 @@
+[
+    {
+        "name" : "Diego",
+        "lastName" : "Farrugio",
+        "born" : "Roma"
+    },
+
+    {
+        "name" : "Giuseppe",
+        "lastName" : "Rossi",
+        "born" : "Catania"
+    },
+
+    {
+        "name" : "Mario",
+        "lastName" : "Verdi",
+        "born" : "Lecce"
+    },
+
+    {
+        "name" : "Carmelo",
+        "lastName" : "Madonna",
+        "born" : "Firenze"
+    },
+
+    {
+        "name" : "Pippo",
+        "lastName" : "Inzaghi",
+        "born" : "Torino"
+    }
+]
