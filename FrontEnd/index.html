@@ -19,16 +19,18 @@
             </header>
 
             <main>
+                <div class="mb-3 ">
+                    <input type="text" placeholder="Inserisci cosa fare" v-model="newTodo">
+                    <button @click="addTodoList()" type="submit">Aggiungi</button>
+                </div>
                 <ul>
                     <!--BONUS NON FUNZIONANTE
-                    :class="{'text-decoration-line-through': thingsToDos.done == true}">-->
-                    <li v-for="thingsToDos in thingsToDo" key="i">
-                        {{thingsToDos.list}} ---> {{thingsToDos.done}}
+                    :class="{'completed': thingsToDos.done == true}">-->
+                    <li v-for="thingsToDos in thingsToDo" key="i" :class="{'completed': thingsToDos.done == true}">
+                        {{thingsToDos.list}}
                     </li>
                 </ul>
             </main>
-
-            
 
             <footer>
             </footer>
